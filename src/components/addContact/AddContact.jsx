@@ -41,6 +41,9 @@ export const AddContact = () => {
 
     if (isContactExists) {
       setContactExistsMessage('Contact already exists in your contact list!');
+      setTimeout(() => {
+        setContactExistsMessage('');
+      }, 2000);
       return;
     }
     dispatch(addContact(name, number));
