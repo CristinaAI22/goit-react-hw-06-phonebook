@@ -46,10 +46,13 @@ export const AddContact = () => {
       }, 2000);
       return;
     }
+
     dispatch(addContact(name, number));
 
     setSuccessMessage('Contact added successfully.');
-
+    setTimeout(() => {
+      setSuccessMessage('');
+    }, 2000);
     setName('');
     setNumber('');
   };
