@@ -20,7 +20,7 @@
 .error {
   color: red;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: normal;
   margin-top: 5px;
 }
 
@@ -33,4 +33,10 @@
   cursor: pointer;
   width: fit-content;
   align-self: flex-end;
+}
+.successMessage {
+  color: green;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
 }

@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
